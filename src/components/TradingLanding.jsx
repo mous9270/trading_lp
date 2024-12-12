@@ -4,13 +4,13 @@ import { TestimonialCard } from "./TestimonialCard";
 const testimonials = [
   {
     name: "Michael",
-    image: "https://cdn.builder.io/api/v1/image/assets/TEMP/2f8e98b6efafd5f85a4eb0b9a48f9cd1d8a3d8c1f21e2c5026b2d20f4523f48e?placeholderIfAbsent=true&apiKey=16a30c8b59af423ebd21c38889ab0b6a",
+    image: "./src/assets/user.png",
     review: "\"I'm blown away by the results of these indicators, and how easy they are to use. I will pass my Prop account very soon!\"",
     stars: [true, true, true, true, false]
   },
   {
     name: "Seong",
-    image: "https://cdn.builder.io/api/v1/image/assets/TEMP/57c49e74cad56bdc6bf605720c410493c3e55dcb671e56a6eda0c9795329b5ae?placeholderIfAbsent=true&apiKey=16a30c8b59af423ebd21c38889ab0b6a",
+    image: "./src/assets/user.png",
     review: "It's rare to find a team so dedicated to their community. It's been life-changing.\"",
     stars: [true, true, true, true, false]
   }
@@ -46,19 +46,19 @@ export function TradingLanding() {
                       <div className="flex flex-col">
                         <img
                           loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/59cf74bc11276388d2c2102a5f76745e41abdb668b1e26e2eb0d79a3b52ac9af?placeholderIfAbsent=true&apiKey=16a30c8b59af423ebd21c38889ab0b6a"
+                          src="./src/assets/bulb.svg"
                           className="object-contain aspect-[0.82] w-[23px]"
                           alt="Trading feature icon 1"
                         />
                         <img
                           loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/7eaaacb1c6a111eb7b10c0f9b0e81bc5918a338a3a5fb5cd7a7ccebca2101784?placeholderIfAbsent=true&apiKey=16a30c8b59af423ebd21c38889ab0b6a"
+                          src="./src/assets/bulb.svg"
                           className="object-contain mt-6 aspect-[0.82] w-[23px]"
                           alt="Trading feature icon 2"
                         />
                         <img
                           loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/4382ce4e0cf6a0d567f00df61bb10dd50426f869e0c46fa173084bc1a5233c1e?placeholderIfAbsent=true&apiKey=16a30c8b59af423ebd21c38889ab0b6a"
+                          src="./src/assets/bulb.svg"
                           className="object-contain mt-6 aspect-[0.85] w-[23px]"
                           alt="Trading feature icon 3"
                         />
@@ -93,7 +93,7 @@ export function TradingLanding() {
               <div className="flex flex-col ml-5 w-[62%] max-md:ml-0 max-md:w-full">
                 <img
                   loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/234dab0a37b4233d3210696bbe158d8789df5d680e725a304ed3f8a6a15329d1?placeholderIfAbsent=true&apiKey=16a30c8b59af423ebd21c38889ab0b6a"
+                  src="./src/assets/hero.svg"
                   className="object-contain grow w-full rounded-none aspect-[1.22] max-md:mt-10 max-md:max-w-full"
                   alt="Trading platform interface demonstration"
                 />
@@ -103,7 +103,7 @@ export function TradingLanding() {
         </div>
         <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/3e08741daf5d52f506d11d71286182d1c68bc63bbf5432851bb5317a363d04e8?placeholderIfAbsent=true&apiKey=16a30c8b59af423ebd21c38889ab0b6a"
+          src="./src/assets/grid.svg"
           className="object-contain w-full aspect-[4.67] max-md:max-w-full"
           alt="Trading platform footer decoration"
         />
