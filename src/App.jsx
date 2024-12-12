@@ -1,7 +1,10 @@
 import React from 'react'
+import { TradingLanding } from './components/TradingLanding'
 const App = () => {
 	return(
-		<div>App</div>
+		<div>
+      <TradingLanding />
+    </div>
 	)
 }
 
