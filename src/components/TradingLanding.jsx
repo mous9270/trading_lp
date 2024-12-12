@@ -20,7 +20,6 @@ const testimonials = [
 export function TradingLanding() {
   return (
     <div className="relative flex flex-col bg-white overflow-hidden">
-      {/* Background grid positioned absolutely */}
       <img
         loading="lazy"
         src="./src/assets/grid.svg"
@@ -30,7 +29,6 @@ export function TradingLanding() {
       
       <div className="relative z-10 flex flex-col w-full max-w-[1794px] mx-auto px-16 py-20 max-md:px-5 max-md:py-24">
         <div className="flex gap-5 max-md:flex-col">
-          {/* Left Column */}
           <div className="flex flex-col w-[38%] max-md:w-full">
             <img
               loading="lazy"
@@ -39,8 +37,10 @@ export function TradingLanding() {
               alt="Trading platform logo"
             />
             <div className="flex flex-col pl-5 max-md:pl-5">
-              <h1 className="text-8xl font-bold tracking-tighter leading-[86px] max-md:text-4xl max-md:leading-10">
-                Level Up<br />Your Trading
+              <h1 className="text-8xl font-bold tracking-tighter leading-[86px] text-green-500 max-md:text-4xl max-md:leading-10">
+                Level Up
+                <br />
+                Your Trading
               </h1>
               <div className="mt-6 text-2xl tracking-tight leading-10">
                 Become Profitable in{" "}
@@ -61,7 +61,6 @@ export function TradingLanding() {
             </div>
           </div>
           
-          {/* Right Column */}
           <div className="relative w-[62%] max-md:w-full mt-20">
             <img
               loading="lazy"
