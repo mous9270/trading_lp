@@ -75,9 +75,9 @@ export function TradingLanding() {
                         </div>
                       </div>
                     </div>
-                    <button className="px-16 pt-2 pb-5 text-5xl font-bold tracking-tight leading-none text-white rounded-xl max-md:px-5 max-md:max-w-full">
-                      Claim Free Access
-                    </button>
+                    <button className="w-full bg-gradient-to-br from-green-400 to-green-500 px-16 py-4 text-4xl font-bold text-white rounded-xl shadow-lg hover:opacity-95 transition-opacity duration-200 max-md:px-5 max-md:max-w-full">
+  Claim Free Access
+</button>
                     <div className="mt-10 max-md:max-w-full">
                       <div className="flex gap-5 max-md:flex-col">
                         {testimonials.map((testimonial, index) => (
