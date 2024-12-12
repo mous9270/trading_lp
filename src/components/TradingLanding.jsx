@@ -90,7 +90,7 @@ export function TradingLanding() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col ml-5 w-[62%] max-md:ml-0 max-md:w-full">
+              <div className="flex flex-col ml-5 w-[62%] max-md:ml-0 max-md:w-full -mt-40">
                 <img
                   loading="lazy"
                   src="./src/assets/hero.svg"
