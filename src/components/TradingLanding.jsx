@@ -63,7 +63,7 @@ export function TradingLanding() {
               <img
   loading="lazy"
   src="./src/assets/hero.svg"
-  className="object-contain grow w-full rounded-none aspect-[1.22] transform scale-125 origin-center mt-20 max-md:max-w-full"
+  className="object-contain grow w-full rounded-none aspect-[1.22] transform scale-125 origin-center -ml-20 mt-20 max-md:max-w-full"
   alt="Trading platform interface demonstration"
 />
               </div>
