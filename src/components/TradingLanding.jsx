@@ -1,5 +1,6 @@
 import * as React from "react";
 import { TestimonialCard } from "./TestimonialCard";
+import TradingFeatures from "./TradingFeatures";
 
 const testimonials = [
   {
@@ -42,39 +43,7 @@ export function TradingLanding() {
                       <span className="font-bold">30 Days</span> With Our{" "}
                       <span className="font-bold text-green-700">Free Tools</span>
                     </div>
-                    <div className="flex flex-wrap gap-3.5 items-start mt-5 max-md:mr-2.5 max-md:max-w-full">
-                      <div className="flex flex-col">
-                        <img
-                          loading="lazy"
-                          src="./src/assets/bulb.svg"
-                          className="object-contain aspect-[0.82] w-[23px]"
-                          alt="Trading feature icon 1"
-                        />
-                        <img
-                          loading="lazy"
-                          src="./src/assets/bulb.svg"
-                          className="object-contain mt-6 aspect-[0.82] w-[23px]"
-                          alt="Trading feature icon 2"
-                        />
-                        <img
-                          loading="lazy"
-                          src="./src/assets/bulb.svg"
-                          className="object-contain mt-6 aspect-[0.85] w-[23px]"
-                          alt="Trading feature icon 3"
-                        />
-                      </div>
-                      <div className="flex flex-col grow shrink-0 items-start pr-20 pb-16 pl-5 mt-2 text-2xl tracking-tight bg-white rounded-2xl basis-0 shadow-[0px_-431px_531px_rgba(16,96,52,0.17)] text-neutral-400 w-fit max-md:pr-5 max-md:max-w-full">
-                        <div className="z-10 mt-0 leading-none max-md:max-w-full">
-                          Instant access to TradingView Indicators
-                        </div>
-                        <div className="mt-5 leading-none">
-                          Professional Trader Support Group
-                        </div>
-                        <div className="mt-3.5 leading-10">
-                          Generate consistent Profits
-                        </div>
-                      </div>
-                    </div>
+                    <TradingFeatures />
                     <button className="w-full bg-gradient-to-br from-green-400 to-green-500 px-16 py-4 text-4xl font-bold text-white rounded-xl shadow-lg hover:opacity-95 transition-opacity duration-200 max-md:px-5 max-md:max-w-full">
   Claim Free Access
 </button>
