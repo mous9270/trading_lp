@@ -12,7 +12,7 @@ const testimonials = [
   {
     name: "Seong",
     image: "./src/assets/user.png",
-    review: "It's rare to find a team so dedicated to their community. It's been life-changing.\"",
+    review: "\"I'm blown away by the results of these indicators, and how easy they are to use. I will pass my Prop account very soon!\"",
     stars: [true, true, true, true, false]
   }
 ];
@@ -42,9 +42,11 @@ export function TradingLanding() {
                 <span className="font-bold text-green-700">Free Tools</span>
               </div>
               <TradingFeatures />
-              <button className="w-full bg-gradient-to-br from-green-400 to-green-500 px-16 py-4 text-4xl font-bold text-white rounded-xl shadow-lg hover:opacity-95 transition-opacity duration-200 max-md:px-5">
-                Claim Free Access
-              </button>
+            
+              <button className="w-full bg-gradient-to-br from-green-400 to-green-500 px-16 py-4 text-4xl font-bold text-white rounded-xl shadow-lg transition-all duration-200 hover:scale-[1.02] hover:from-green-500 hover:to-green-600 hover:shadow-xl max-md:px-5">
+  Claim Free Access
+</button>
+             
               <div className="mt-10 flex gap-5 max-md:flex-col">
                 {testimonials.map((testimonial, index) => (
                   <div key={index} className="w-6/12 max-md:w-full">
