@@ -31,7 +31,7 @@ export function TradingLanding() {
               alt="Trading platform logo"
             />
             <div className="flex flex-col pl-5 max-md:pl-5">
-              <h1 className="text-8xl font-bold tracking-tighter leading-[86px] text-green-500 max-md:text-4xl max-md:leading-10">
+              <h1 className="text-8xl font-ibm-plex font-bold tracking-tighter leading-[86px] text-green-500 max-md:text-4xl max-md:leading-10">
                 Level Up
                 <br />
                 Your Trading
