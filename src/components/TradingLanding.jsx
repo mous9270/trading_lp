@@ -5,13 +5,13 @@ import TradingFeatures from "./TradingFeatures";
 const testimonials = [
   {
     name: "Michael",
-    image: "./src/assets/user.png",
+    image: "./user.png",
     review: "\"I'm blown away by the results of these indicators, and how easy they are to use. I will pass my Prop account very soon!\"",
     stars: [true, true, true, true, false]
   },
   {
     name: "Seong",
-    image: "./src/assets/user.png",
+    image: "./user.png",
     review: "\"I'm blown away by the results of these indicators, and how easy they are to use. I will pass my Prop account very soon!\"",
     stars: [true, true, true, true, false]
   }
@@ -26,7 +26,7 @@ export function TradingLanding() {
           <div className="flex flex-col w-[38%] max-md:w-full">
             <img
               loading="lazy"
-              src="./src/assets/trustpilot.png"
+              src="./trustpilot.png"
               className="object-contain w-[180px] mb-6"
               alt="Trading platform logo"
             />
@@ -60,7 +60,7 @@ export function TradingLanding() {
           <div className="relative w-[62%] max-md:w-full mt-20">
             <img
               loading="lazy"
-              src="./src/assets/hero.svg"
+              src="./hero.svg"
               className="object-contain w-full transform scale-125 -translate-x-20 translate-y-[-10%] max-md:transform-none"
               alt="Trading platform interface demonstration"
             />

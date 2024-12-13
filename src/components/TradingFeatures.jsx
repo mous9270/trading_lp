@@ -4,15 +4,15 @@ const TradingFeatures = () => {
   const features = [
     {
       title: "Instant access to TradingView Indicators",
-      icon: "/src/assets/bulb.svg"
+      icon: "./bulb.svg"
     },
     {
       title: "Professional Trader Support Group",
-      icon: "/src/assets/bulb.svg"
+      icon: "./bulb.svg"
     },
     {
       title: "Generate consistent Profits",
-      icon: "/src/assets/bulb.svg"
+      icon: "./bulb.svg"
     }
   ];
 
