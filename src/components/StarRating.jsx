@@ -4,8 +4,8 @@ const StarRating = ({ stars }) => {
   const Star = ({ filled }) => (
     <svg
       viewBox="0 0 24 24"
-      width="14"
-      height="14"
+      width="10"
+      height="10"
       className="inline-block"
     >
       <path
@@ -18,7 +18,7 @@ const StarRating = ({ stars }) => {
   );
 
   return (
-    <div className="flex gap-0.5">
+    <div className="flex gap-0.4">
       {stars.map((filled, index) => (
         <Star key={index} filled={filled} />
       ))}
