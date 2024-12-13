@@ -20,14 +20,8 @@ const testimonials = [
 export function TradingLanding() {
   return (
     <div className="relative flex flex-col bg-white overflow-hidden">
-      <img
-        loading="lazy"
-        src="./src/assets/grid.svg"
-        className="absolute bottom-0 left-0 w-full h-48 object-cover"
-        alt="Trading platform footer decoration"
-      />
-      
-      <div className="relative z-10 flex flex-col w-full max-w-[1794px] mx-auto px-16 py-20 max-md:px-5 max-md:py-24">
+      {/* Replace the existing commented grid image with: */}
+          <div className="relative z-10 flex flex-col w-full max-w-[1794px] mx-auto px-16 py-20 max-md:px-5 max-md:py-24">
         <div className="flex gap-5 max-md:flex-col">
           <div className="flex flex-col w-[38%] max-md:w-full">
             <img

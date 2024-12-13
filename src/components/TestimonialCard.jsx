@@ -8,7 +8,7 @@ export const TestimonialCard = ({ image, name, review, stars }) => {
         <img
           loading="lazy"
           src={image}
-          className="object-contain shrink-0 self-start mt-1 rounded-full aspect-square w-[25px]"
+          className="object-contain shrink-0 self-start mt-0.4 rounded-full aspect-square w-[25px]"
           alt={`${name}'s profile picture`}
         />
         <div className="flex flex-col">
